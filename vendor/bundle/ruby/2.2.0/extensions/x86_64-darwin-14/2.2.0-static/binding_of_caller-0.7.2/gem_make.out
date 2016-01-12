@@ -1,0 +1,12 @@
+/Users/mrej/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20160112-31758-1pvq32y.rb extconf.rb --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/libxml2 --use-system-libraries
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+make "DESTDIR=" install
+echo "Nada."
+Nada.
